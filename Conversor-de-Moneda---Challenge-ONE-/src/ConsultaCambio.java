@@ -26,10 +26,6 @@ public class ConsultaCambio {
 
 
 
-        //System.out.println(json);
 
-        //Gson gson= new Gson();
-        //CambioDeMoneda monedaOriginal= gson.fromJson(json,CambioDeMoneda.class);
-        //System.out.println(CambioDeMoneda.getMonedaBase);
     }
 }
