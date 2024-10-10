@@ -52,6 +52,7 @@ y se le preguntara la cantidad de moneda base que desea convertir.
 Ingresando cantidad a convertir:
 
 Si el usuario ingresa una cantidad inválida (diferente de un número), deberá ingresar nuevamente una cantidad válida.
+
  ![Captura de pantalla de la aplicacion](https://github.com/Danywolf78/Conversor-de-Moneda---Challenge-ONE-/blob/main/Conversor-de-Moneda---Challenge-ONE-/imagenes/Error_3.jpeg)
 
 
