@@ -20,7 +20,7 @@ public class CambioDeMoneda {
                 System.out.println("Por favor, introduzca un número válido");}
         }
         cantidadConvertida = cantidad * monedas.conversion_rate();
-        System.out.println(cantidad + " " + monedaBase + " = " + cantidadConvertida + " " + monedas.target_code());
+        System.out.println("El valor de "+cantidad + " " + monedaBase + " corresponde a  " + cantidadConvertida + " " + monedas.target_code());
 
 
     }

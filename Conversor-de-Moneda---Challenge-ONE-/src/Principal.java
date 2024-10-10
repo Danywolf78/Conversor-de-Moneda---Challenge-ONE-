@@ -12,7 +12,7 @@ public class Principal {
         while (true) {
                       System.out.println("***************************************************");
             System.out.println("******** Bienvenido al Conversor de monedas *******");
-            System.out.println("******** Conversiones de moneda disponibles ********\n");
+            System.out.println("******** Conversiones de monedas disponibles ********\n");
             System.out.println("1) Dolares Americanos a Pesos Argentinos \n" +
                     "2) Pesos Argeninos a Dolares Americanos \n" +
                     "3) Dolares Americanos a Reales Brasileños \n" +
@@ -20,7 +20,7 @@ public class Principal {
                     "5) Dolares Americanos a Pesos Colombianos \n" +
                     "6) Pesos Colombianos a Dolares Americanos \n" +
                     "7) Salir "   );
-            System.out.println("  Seleccione una opcion de cambio :");
+            System.out.println("   Seleccione una opcion de cambio: ");
             try {
                 opcion = lectura.nextInt();
                 lectura.nextLine();
@@ -50,7 +50,7 @@ public class Principal {
                     CambioDeMoneda.convertir("COP", "USD", lectura, consulta);
                     break;
                 case 7:
-                    System.out.println("Gracias por utilizar el conversor de moneda");
+                    System.out.println("Gracias por utilizar el conversor de monedas");
 
                     break EXTERNA;
                 default:
